@@ -1,0 +1,14 @@
+jucao:
+  client:
+    address:
+      url: http://localhost:8082/addresses
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      authentication-database: admin
+      username: root   # Corrigido para 'root' conforme no docker-compose
+      password: example
+      database: cleanarch
